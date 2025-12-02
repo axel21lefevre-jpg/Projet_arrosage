@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="projet arrosage" company="STI2D" webLink="http://" view-date="2025-11-13" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="projet arrosage" company="STI2D" webLink="http://" view-date="2025-11-11" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="fr_FR">
     <description><![CDATA[Projet de création d'un système d'arrosage automatique]]></description>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nom" width="200" order="0"/>
@@ -79,7 +79,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="01a2496eb64a43acbe7709009c641d16" name="recherche de solution existante" meeting="false" start="2025-11-21" duration="1" complete="0" expand="true">
+        <task id="0" uid="01a2496eb64a43acbe7709009c641d16" name="recherche de solution existante" meeting="false" start="2025-11-21" duration="1" complete="0" webLink="https%3A%2F%2Faxel21lefevre-jpg.github.io%2FProjet_arrosage%2Fcarte_mentale%2FMVHtmlExport%2Findex.htm" expand="true">
             <notes><![CDATA[objectifs: 
 
 Recherche de solution d'arrosage existantes et présentation sous forme de carte mentale sur mind view.
@@ -93,6 +93,7 @@ Conclusion:
 Cette recherche m'a permis de découvrir les différents type d'arrosage automatique qui éxiste.
 J'ai aussi appris a decouvrir mind view pour faire des cartes mentales.]]></notes>
         </task>
+        <task id="2" uid="1b5716f37f1649aaa1c8b919a5e336b7" name="analyse du besoin" meeting="false" start="2025-11-24" duration="5" complete="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Axel" function="Default:1" contacts="" phone=""/>
