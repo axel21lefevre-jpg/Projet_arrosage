@@ -1,0 +1,631 @@
+<html xmlns:ganttproject="http://ganttproject.sf.net/">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>GanttProject - gant_project_html</title>
+        <style>
+	    A:link {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: black;
+	    }
+	    A:visited {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: black; BACKGROUND: none
+	    }
+	    A:hover {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: white ; BACKGROUND: #6d9ec6;
+	    }
+	    .notes {
+	      padding-left: 10px;
+	    }
+	    .notes pre {
+	      font-family: Arial, Helvetica;
+	      font-size: 10px;
+	      margin-top: 0px;
+	      padding-top: 0px;
+	      margin-bottom: 5px;
+	    }
+	    .attachment {
+	      padding-left: 10px;
+	    }
+	    .attachment a:link {
+	      font-weight: normal;
+	      font-size: 12px;
+	      color: #6d9ec6;
+	      background: white;
+	    }
+	    .attachment a:hover {
+	      font-weight: normal;
+	      text-decoration: underline;
+	      font-size: 12px;
+	      color: #6d9ec6;
+	      background: white;
+	    }
+	    .attachment a:visited {
+	      font-weight: normal;
+	      font-size: 12px;
+	      background: white;
+	      color: gray;
+	    }
+	    TD {
+		FONT-SIZE: 12px; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    UL {
+		FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    LI {
+		FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    H1 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #6d9ec6;
+	    }
+	    H2 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #000000;
+	    }
+	    H3 {
+		FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #6d9ec6;
+	    }
+	    H4 {
+		FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000;
+	    }
+	    H5 {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #6d9ec6;
+	    }
+	    H6 {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000
+	    }
+
+	    </style>
+    </head>
+    <body bgcolor="white">
+        <center>
+            <style>
+div.project_name {
+  font-size: 150%;
+  color: black;
+  font-weight: bold;
+  border-top: solid #6d9ec6 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+}
+div.page_links {
+  background: #6d9ec6;
+  text-align: center;
+}
+</style>
+            <center>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td bgcolor="#dddddd">
+                            <div class="project_name">Projet arosage</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="page_links">
+                                <a href="gant_project_html.html"></a>  |
+          <a href="gant_project_html-chart.html">Diagramme de Gantt</a> |
+          <a href="gant_project_html-tasks.html">T&acirc;ches</a> |
+          <a href="gant_project_html-resources.html">Ressources</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+            <br>
+            <style>
+td.header {
+  background: #dddddd;
+  margin: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom:1px;
+  border-bottom: solid black 2px;
+}
+td.cell {
+  margin: 0;
+  margin-top: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom:1px;
+}
+div.cell {
+}
+h5.header {
+  margin-left: 2px;
+  margin-top: 2px;
+}
+</style>
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td valign="top" class="header">
+                        <h5 class="header">Nom</h5>
+                    </td><td valign="top" class="header">
+                        <h5 class="header">Date de d&eacute;but</h5>
+                    </td><td valign="top" class="header">
+                        <h5 class="header">Date de fin</h5>
+                    </td><td valign="top" class="header">
+                        <h5 class="header">Ressources</h5>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">recherche de l'existant</div>
+                            <div class="notes">
+                                <pre width="40">Objectifs : 
+
+Recherche de solutions d'arrosages existantes et pr&eacute;sentation sous forme de carte mentale sur mind view .
+
+M&eacute;thode :
+
+Recherche sur internet des solution . 
+Carte mentale sur mind view avec les syst&egrave;mes d'arrosage . 
+ 
+Conclusion : 
+
+Cette recherche m'a permis de d&eacute;couvrir les diff&eacute;rents syst&egrave;me d'arrosages automatiques 
+
+J'ai aussi apris &agrave; bien me servir de Mind View et Git Ub . 
+
+</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://soan908.github.io/Projet_arosage/Carte mentale/MVHtmlExport/index.htm" class="attachment">https://soan908.github.io/Projet_arosage/Carte mentale/MVHtmlExport/index.htm</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">21/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">27/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">Soan, Axel </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">28/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">28/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">pr&eacute;sentation</div>
+                            <div class="notes">
+                                <pre width="40">Nous avons r&eacute;aliser un syst&egrave;me d'arrosage automatique .
+2025-2026
+Soan et Axel</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://raw.githubusercontent.com/Soan908/Projet_arosage/refs/heads/main/image projet.png" class="attachment">https://raw.githubusercontent.com/Soan908/Projet_arosage/refs/heads/main/image projet.png</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">28/11/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">04/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">05/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">05/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">analyse du besoin et demande du client avec exigences</div>
+                            <div class="notes">
+                                <pre width="40">Objectifs :
+ Remplire le TD sur l'analyse du besoin avec les diff&eacute;rents syst&egrave;mes possibles et le diagramme SYSML
+
+Le client a besoin d'un syst&egrave;me d'arrosage automatique qui r&eacute;pond au &eacute;xigence suivante : 
+-Le syst&egrave;me d'arrosage automatique que nous allons d&eacute;velopper est &agrave; destination d'un particulier. 
+- Le syst&egrave;me devra pouvoir maintenir l'humidit&eacute; de la terre de plante domestique d'int&eacute;rieur . 
+-Le syst&egrave;me devra &ecirc;tre autonome en &eacute;nergie et en eau pendant au moins 15 jours .
+-Le syst&egrave;me devra permettre l'arrosage de 5 plantes maximums . 
+-Il devra s'adapter sur des pots de fleurs d'int&eacute;rieur tout en restant discret et se fondre dans la d&eacute;coration des habitats des utilisateurs 
+
+M&eacute;thodes :
+ Nous avons eu un dossier avec un besoin et des &eacute;xigences a respecter .
+
+
+Conclusion : 
+Suite a cette analyse du besoin nous avons eux une id&eacute;e de projet arrosage r&eacute;pondant aux exigences du clients .</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://github.com/Soan908/Projet_arosage/blob/main/Analyse_besoin/E47EE95F-8C9B-4805-9AB6-80B96FCBB84B-COLLAGE.jpeg?raw=true" class="attachment">https://github.com/Soan908/Projet_arosage/blob/main/Analyse_besoin/E47EE95F-8C9B-4805-9AB6-80B96FCBB84B-COLLAGE.jpeg?raw=true</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">05/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">11/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">Soan, Axel </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">12/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">12/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">phase de r&eacute;fl&eacute;xion avec crquis de notre solution</div>
+                            <div class="notes">
+                                <pre width="40">Objectifs :
+R&eacute;flechir a une solution et r&eacute;aliser un croquis de notre id&eacute;e .
+
+M&eacute;thode :
+Nous avons dessiner un croquis de notre solution . 
+
+Conclusion :
+Nous avons trouver une solution au besoin et nous avons r&eacute;aliser un croquis de cette solution d'arrosage automatique .</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://soan908.github.io/Projet_arosage/croquis.jpg" class="attachment">https://soan908.github.io/Projet_arosage/croquis.jpg</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">12/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">18/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">Soan, Axel </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">19/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">19/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">R&eacute;partition des taches</div>
+                            <div class="notes">
+                                <pre width="40">Soan c'est occup&eacute; de la conception 3D sur solidworks et de la d&eacute;coupe lazer avec oneshape . 
+
+Axel c'est occup&eacute; de la partie programmation sur vitascience . </pre>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">19/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">26/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">29/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">29/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">listes des composants</div>
+                            <div class="notes">
+                                <pre width="40">Voici la liste des composants de notre projets dans le lien si dessous : 
+
+                                                                                         </pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://raw.githubusercontent.com/Soan908/Projet_arosage/refs/heads/main/liste_composant.png" class="attachment">https://raw.githubusercontent.com/Soan908/Projet_arosage/refs/heads/main/liste_composant.png</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">29/12/2025</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">02/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">05/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">05/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">chaine de puissance et information</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">05/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">09/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">12/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">12/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">sh&eacute;ma &eacute;l&eacute;ctrique</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">12/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">16/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">19/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">19/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">organigramme</div>
+                            <div class="notes">
+                                <pre width="40">Voici l'organigramme du projet :</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://raw.githubusercontent.com/axel21lefevre-jpg/Projet_arrosage/refs/heads/main/Capture d'%C3%A9cran 2026-02-10 102850.png" class="attachment">https://raw.githubusercontent.com/axel21lefevre-jpg/Projet_arrosage/refs/heads/main/Capture d'&eacute;cran 2026-02-10 102850.png</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">19/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">23/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">26/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">26/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">conception 3D solidworks</div>
+                            <div class="notes">
+                                <pre width="40">voici la conception 3D r&eacute;aliser sur solidworks par  Soan</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://raw.githubusercontent.com/Soan908/Projet_arosage/refs/heads/main/Capture solideworks.PNG" class="attachment">https://raw.githubusercontent.com/Soan908/Projet_arosage/refs/heads/main/Capture solideworks.PNG</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">26/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">30/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">Soan, Axel </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">Programmation</div>
+                            <div class="notes">
+                                <pre width="40">Voici la programmation r&eacute;aliser par axel</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://github.com/Soan908/Projet_arosage/blob/main/programmation.png?raw=true" class="attachment">https://github.com/Soan908/Projet_arosage/blob/main/programmation.png?raw=true</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">26/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">30/01/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">Soan, Axel </td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">02/02/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">02/02/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">D&eacute;coupe lazer one shape</div>
+                            <div class="notes">
+                                <pre width="40">voici la d&eacute;coupe lazer sur one shape qui a permis de d&eacute;couper notre pi&egrave;ce en carton .</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://raw.githubusercontent.com/Soan908/Projet_arosage/refs/heads/main/One shape.png" class="attachment">https://raw.githubusercontent.com/Soan908/Projet_arosage/refs/heads/main/One shape.png</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">02/02/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">05/02/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">Soan</td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">jalon</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">06/02/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">06/02/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+                <tr>
+                    <td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0em">
+                            <div style="margin: 0; padding: 0; text-align: ;">video de notre projet fini</div>
+                            <div class="notes">
+                                <pre width="40">voici la vid&eacute;o de notre projet arrosage termn&eacute;</pre>
+                            </div>
+                            <div class="attachment">
+                                <a href="https://drive.google.com/file/d/1hu56V6CdIPYaI9HIjHKO1zekgBy-_rFZ/view?usp=sharing" class="attachment">https://drive.google.com/file/d/1hu56V6CdIPYaI9HIjHKO1zekgBy-_rFZ/view?usp=sharing</a>
+                            </div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">06/02/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell">
+                        <div style="margin:0; padding:0; padding-left:0.5em">
+                            <div style="margin: 0; padding: 0; text-align: ;">10/02/2026</div>
+                        </div>
+                    </td><td valign="top" class="cell"></td>
+                </tr>
+            </table>
+        </center>
+        <br>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td bgcolor="#6d9ec6" width="50%"><font color="#FFFFFF"><b>Ganttproject (3.3.3316)</b></font></td><td bgcolor="#6d9ec6" width="50%" align="right"><b><a href="http://ganttproject.biz">ganttproject.biz</a></b>
+                    <br>
+                    <b>10/02/2026 - 11:33:45</b></td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="projet arrosage" company="STI2D" webLink="http://" view-date="2025-11-11" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="projet arrosage" company="STI2D" webLink="http://" view-date="2025-12-05" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="fr_FR">
     <description><![CDATA[Projet de création d'un système d'arrosage automatique]]></description>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nom" width="200" order="0"/>
@@ -79,7 +79,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="01a2496eb64a43acbe7709009c641d16" name="recherche de solution existante" meeting="false" start="2025-11-21" duration="1" complete="100" webLink="https%3A%2F%2Faxel21lefevre-jpg.github.io%2FProjet_arrosage%2Fcarte_mentale%2FMVHtmlExport%2Findex.htm" expand="true">
+        <task id="0" uid="01a2496eb64a43acbe7709009c641d16" name="recherche de solution existante" meeting="false" start="2025-11-21" duration="5" complete="100" webLink="https%3A%2F%2Faxel21lefevre-jpg.github.io%2FProjet_arrosage%2Fcarte_mentale%2FMVHtmlExport%2Findex.htm" expand="true">
             <notes><![CDATA[objectifs: 
 
 Recherche de solution d'arrosage existantes et présentation sous forme de carte mentale sur mind view.
@@ -92,9 +92,66 @@ Conclusion:
 
 Cette recherche m'a permis de découvrir les différents type d'arrosage automatique qui éxiste.
 J'ai aussi appris a decouvrir mind view pour faire des cartes mentales.]]></notes>
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="2" uid="1b5716f37f1649aaa1c8b919a5e336b7" name="analyse du besoin" meeting="false" start="2025-11-24" duration="9" complete="100" webLink="https%3A%2F%2Fgithub.com%2Faxel21lefevre-jpg%2FProjet_arrosage%2Fblob%2Fmain%2FAnalyse_besoin%2FD7800BEE-222C-4D71-85DB-ACBCFF103772-COLLAGE.jpeg%3Fraw%3Dtrue" expand="true"/>
-        <task id="3" uid="e6d2c55c9fdf44f985c16613cace31b9" name="phase de reflexion" meeting="false" start="2025-12-05" duration="2" complete="18" expand="true"/>
+        <task id="7" uid="1a625fdee6b441ac9fdde35b9612605f" name="jalon" meeting="true" start="2025-11-28" duration="0" complete="0" expand="true"/>
+        <task id="2" uid="1b5716f37f1649aaa1c8b919a5e336b7" name="analyse du besoin" meeting="false" start="2025-11-28" duration="5" complete="100" webLink="https%3A%2F%2Fgithub.com%2Faxel21lefevre-jpg%2FProjet_arrosage%2Fblob%2Fmain%2FAnalyse_besoin%2FD7800BEE-222C-4D71-85DB-ACBCFF103772-COLLAGE.jpeg%3Fraw%3Dtrue" expand="true">
+            <notes><![CDATA[objectifs:
+  Remplir le TD sur l'analyse du besoin avec les différents systèmes possibles et le digramme SYSML.
+Le client a besoin d'un système d'arrosage qui répond aux exigences suivantes : 
+- Le système d'arrosage automatique que nous allons développer est à destination d'un particulier.
+- Le système devra pouvoir maintenir l'humidité de la terre de plante domestique d'interieur.
+- Le système devra être autonome en énergie et en eau pendant au moins 15 jours.
+- Le système devra permettre l'arrosage de 5 plantes maximum.
+- Il devra s'adapter sur des pots de fleurs d'intérieur tout en restant discret et se fondre dans la décoration des habitats des utilisateurs. 
+
+Méthode:
+Nous avons eu un dossier avec un besoin et des éxigeneces à respecter 
+
+Conclusion:
+Suite à la demande du client, nous avons eu l'idée d'un système répondant aux exigences du clients 
+]]></notes>
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="2d82e234f9d54354a188d6d504bed5b7" name="jalon" meeting="true" start="2025-12-05" duration="0" complete="0" expand="true"/>
+        <task id="3" uid="e6d2c55c9fdf44f985c16613cace31b9" name="phase de reflexion ( croquis )" meeting="false" start="2025-12-05" duration="4" complete="100" webLink="https%3A%2F%2Fi.ibb.co%2FrRv3vmS7%2Fcroquis-2.jpg" expand="true">
+            <notes><![CDATA[objectifs: 
+Dessiner un croquis pour représenter notre projet final.
+
+
+Méthode:
+Réaliser un croquis de notre solution.
+
+Conclusion:
+Nous avons trouver une solutions aux besoins et nous avons réaliser un croquis de cette solution d'arrosage automatique.
+
+]]></notes>
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" uid="21eb4a91f2bb4edbb8887fc04c04b0fd" name="jalon" meeting="true" start="2025-12-11" duration="0" complete="0" expand="true"/>
+        <task id="4" uid="502e97e966f745d5b2423da659ce5b1a" name="Programmation" meeting="false" start="2025-12-11" duration="12" complete="100" webLink="https%3A%2F%2Fgithub.com%2Faxel21lefevre-jpg%2FProjet_arrosage%2Fblob%2Fmain%2FCapture%2520d%27%25C3%25A9cran%25202026-02-05%2520093202.png%3Fraw%3Dtrue" expand="true">
+            <notes><![CDATA[objectifs: 
+
+Méthode:
+
+
+Conclusion:
+]]></notes>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" uid="ec320b8fae544eca8816432e033bd060" name="jalon" meeting="true" start="2025-12-30" duration="0" complete="0" expand="true"/>
+        <task id="11" uid="c253daad8fda4b49b3c24e2a458edc8b" name="conception 3D" meeting="false" start="2025-12-30" duration="1" complete="100" webLink="https%3A%2F%2Fgithub.com%2Faxel21lefevre-jpg%2FProjet_arrosage%2Fblob%2Fmain%2FCapture%2520solideworks.PNG%3Fraw%3Dtrue" expand="true">
+            <notes><![CDATA[objectifs: 
+
+
+Méthode:
+
+
+Conclusion:
+
+]]></notes>
+        </task>
+        <task id="12" uid="9148634036154cf2a120f47597b448c4" name="oragannigramme" meeting="false" start="2025-12-05" duration="1" complete="0" webLink="https%3A%2F%2Fraw.githubusercontent.com%2Faxel21lefevre-jpg%2FProjet_arrosage%2Frefs%2Fheads%2Fmain%2Forgannigramme%2520capture.png" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Axel" function="Default:1" contacts="" phone=""/>
@@ -104,7 +161,10 @@ J'ai aussi appris a decouvrir mind view pour faire des cartes mentales.]]></note
         <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="3" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="3" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
